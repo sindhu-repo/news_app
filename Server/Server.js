@@ -23,7 +23,8 @@ const PORT = process.env.PORT || 8000;
 app.use(cors({
   origin: [
     "https://news-app-thuthan-frontend.vercel.app",
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://thuthan-news-app.vercel.app"
   ],
   methods: ["GET"],
   credentials: true
